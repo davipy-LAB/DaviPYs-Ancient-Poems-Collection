@@ -1,0 +1,117 @@
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0d1117;
+  color: #fff;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.poem-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+.poem-content {
+  background: rgba(17, 17, 17, 0.95);
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  width: 90vw;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+  transition: box-shadow 0.2s;
+}
+
+.poem-content:hover {
+  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+}
+
+.poem-controls {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+button {
+  background: linear-gradient(135deg, #222 60%, #333 100%);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+button:focus {
+  outline: 2px solid #58a6ff;
+  outline-offset: 2px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #333 60%, #444 100%);
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(88,166,255,0.15);
+  opacity: 0.85;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 16px 0;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .poem-content {
+    padding: 18px 6px;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .poem-container {
+    flex-direction: column;
+    gap: 10px;
+    min-height: unset;
+  }
+  button {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+  }
+}

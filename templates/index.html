@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi.py Ancient Poems Collection</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <h1>Welcome to the Davi.py Ancient Poems Collection</h1>
+    <p>Explore a curated collection of ancient poems from various cultures and time periods.</p>
+    <!-- templates/index.html -->
+    <div id="tsparticles"></div>
+    <div class="poem-container">
+        <button id="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+
+        <div class="poem-content">
+            <h2 id="poem-title"></h2>
+            <p id="poem-text"></p>
+
+            <div class="poem-controls">
+                <button id="lang-toggle"><i class="fa-solid fa-globe"></i></button>
+                <button id="play-audio"><i class="fa-solid fa-volume-high"></i></button>
+            </div>
+        </div>
+
+        <button id="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <audio id="poem-audio" src=""></audio>
+
+    <footer>
+        <p>&copy; 2025 Davi.py Ancient Poems Collection</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script>
+    tsParticles.load("tsparticles", {
+      particles: {
+        number: { value: 80 },
+        color: { value: "#ffffff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 3 },
+        move: { enable: true, speed: 1 },
+        links: {
+          enable: true,
+          color: "#ffffff",
+          distance: 150,
+          opacity: 0.4,
+          width: 1
+        }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          repulse: { distance: 100 },
+          push: { quantity: 4 }
+        }
+      },
+      background: {
+        color: "#0d1117" /* ou a cor que tu quiser */
+      }
+    });
+    </script>  
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
