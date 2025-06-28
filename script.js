@@ -125,7 +125,7 @@ Ac, þu dōn nod cunnst.
 Þu art þe wierst mann.
 Liċ me.`
     },
-    audio: "../static/audio/þe dæmon ond þe engel.m4a"
+    audio: "þe dæmon ond þe engel.m4a"
   }
 ];
 
