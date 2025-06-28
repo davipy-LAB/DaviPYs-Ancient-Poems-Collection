@@ -62,7 +62,7 @@ Hē is es heardsǣliġ.
 Ac, Ic ne eom a micel mann...
 Ic eom es heardsǣliġ.`
     },
-    audio: "/static/audio/poem1.mp3"
+    audio: "../static/audio/Heolstor.m4a"
   },
   {
     title: "þe dæmon ond þe engel",
@@ -125,7 +125,7 @@ Ac, þu dōn nod cunnst.
 Þu art þe wierst mann.
 Liċ me.`
     },
-    audio: "/static/audio/poem2.mp3"
+    audio: "../static/audio/þe dæmon ond þe engel.m4a"
   }
 ];
 
@@ -154,7 +154,9 @@ document.getElementById("lang-toggle").onclick = () => {
 };
 
 document.getElementById("play-audio").onclick = () => {
-  document.getElementById("poem-audio").play();
+  const audio = document.getElementById("poem-audio");
+  audio.currentTime = 0;
+  audio.play();
 };
 
 window.onload = updatePoem;
