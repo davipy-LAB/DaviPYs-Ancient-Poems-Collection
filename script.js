@@ -62,7 +62,7 @@ Hē is es heardsǣliġ.
 Ac, Ic ne eom a micel mann...
 Ic eom es heardsǣliġ.`
     },
-    audio: "../static/audio/Heolstor.m4a"
+    audio: "Heolstor.m4a"
   },
   {
     title: "þe dæmon ond þe engel",
