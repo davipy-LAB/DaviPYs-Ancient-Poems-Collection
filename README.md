@@ -18,9 +18,6 @@ Esse projeto foi desenvolvido para unir **linguística histórica**, **poesia au
 - Navegar responsivamente em qualquer dispositivo.
 
 ![image](https://github.com/user-attachments/assets/75755c3f-584f-457c-a858-d795028e11af)
-
-![Imagem do WhatsApp de 2025-06-30 à(s) 19 40 20_9073a289](https://github.com/user-attachments/assets/05780c04-79ab-4663-b50a-4ef0ff338aeb)
-
  
 ---
 
