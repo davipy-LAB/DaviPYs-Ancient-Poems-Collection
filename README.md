@@ -17,6 +17,11 @@ Esse projeto foi desenvolvido para unir **linguística histórica**, **poesia au
 - Ouvir a pronúncia real feita pelo autor;
 - Navegar responsivamente em qualquer dispositivo.
 
+![image](https://github.com/user-attachments/assets/75755c3f-584f-457c-a858-d795028e11af)
+
+![Imagem do WhatsApp de 2025-06-30 à(s) 19 40 20_9073a289](https://github.com/user-attachments/assets/05780c04-79ab-4663-b50a-4ef0ff338aeb)
+
+ 
 ---
 
 ## 🧰 Tecnologias Utilizadas
@@ -26,8 +31,7 @@ Esse projeto foi desenvolvido para unir **linguística histórica**, **poesia au
 - *UX e UI própria*
 - **Sistema de internacionalização com data-i18n**
 - *Áudio personalizado com pronúncia fonética*
-- *Deploy em ambiente web (Render/Vercel/etc.)*
-- [ ] (Futuro) Painel de administração para novos poemas via Flask
+- *Deploy em ambiente web *(Vercel)*
 
 ---
 
