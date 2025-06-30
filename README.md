@@ -10,7 +10,7 @@
 
 ## 🧠 Sobre o projeto
 
-Esse projeto foi desenvolvido para unir *linguística histórica**, **poesia autoral**, e **programação web moderna**. A ideia é criar uma biblioteca minimalista que permita ao usuário:
+Esse projeto foi desenvolvido para unir **linguística histórica**, **poesia autoral**, e **programação web moderna**. A ideia é criar uma biblioteca minimalista que permita ao usuário:
 
 - Ler poemas escritos em Ænglisc;
 - Traduzir os textos para inglês moderno ou português com data-i18n;
